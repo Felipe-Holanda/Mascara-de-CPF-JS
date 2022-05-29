@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta chartset="utf-8">
+        <title>Autentique-se</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="form">
+            <h1>Efetue seu login</h1>
+            <input id="inputCpf" type="text" maxlength="14" placeholder="Insira o seu CPF" onkeypress="mascarar()">
+            <input id="inputSenha" type="password" placeholder="Insira a sua senha">
+            <button id="btnEntrar" onclick="valida()">Entrar</button>
+            <center><span id="notification"></span></center>
+        </div>
+    </body>
+    <script src="./script.js"></script>
+</html>
